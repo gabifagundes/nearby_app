@@ -1,12 +1,12 @@
 import {View, Text} from 'react-native'
 import {colors} from '@/styles/theme'
 import {styles} from './styles'
-import {Icon, IconProps, IconQrcode} from '@tabler/icons-react-native'
+import {Icon, LucideIcon, LucideProps} from 'lucide-react-native'
 
 interface IStepProps{
   title:string
   description:string
-  icon: React.ComponentType<IconProps>
+  icon: LucideIcon
 }
 export function Step({title,description, icon: Icon}:IStepProps){
 
